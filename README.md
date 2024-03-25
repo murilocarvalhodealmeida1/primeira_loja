@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Drogas dos Cabra</title>
+    <title>Douglas Drogas</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Bem-vindo(a) ao Drogas dos Cabra</h1>
+        <img src="download.jpeg" alt="peru">
+        <h1>Bem-vindo(a) ao Douglas Drogas</h1>
         <h3>O melhor lugar para comprar drogas com confiança e garantia</h3>
 
     </header>
 
-    <h2>Como funciona este site?</h2>
-    <h4>Abaixo voçê poderá conferir nossos serviços:</h4>
-    <ul>
-        <li>Diversos tipos de drogas;</li>
-        <li>Serviços de entrega em diversos países;</li>
-        <li>Anonimato total a seu serviço</li>
-    </ul>
+    <main>
+        <h2>Como funciona este site?</h2>
+        <h4>Abaixo voçê poderá conferir nossos serviços:</h4>
+        <ul>
+            <li>Diversos tipos de drogas;</li>
+            <li>Serviços de entrega em diversos países;</li>
+            <li>Anonimato total a seu serviço</li>
+        </ul>
+    </main>
+
+    
     <aside>
         <h3 class="toba">Confira as clases de drogas abaixo</h3>
         <ul>
@@ -33,16 +38,14 @@
 
     </aside>
 
-
-
-
-
-
-
-
-
-
 </body>
+
+<footer>
+    UUUUUU Sai daqui usuário de drogas
+
+
+
+</footer>
 
 
 
