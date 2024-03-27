@@ -8,20 +8,30 @@
 
 <body>
     <header>
-        <img src="download.jpeg" alt="peru">
+        <img src="imagens/snoop.jpeg" alt="peru">
         <h1>Bem-vindo(a) ao Douglas Drogas</h1>
         <h3>O melhor lugar para comprar drogas com confiança e garantia</h3>
 
     </header>
 
     <main>
-        <h2>Como funciona este site?</h2>
-        <h4>Abaixo voçê poderá conferir nossos serviços:</h4>
-        <ul>
-            <li>Diversos tipos de drogas;</li>
-            <li>Serviços de entrega em diversos países;</li>
-            <li>Anonimato total a seu serviço</li>
-        </ul>
+        <section class="caixa_mae">
+            <div class="card">
+                <img src="imagens/download.jpeg">
+                <h2>Bebidas alcólicas</h2>
+                <p>Álcool para alcólatras</p>
+                <h1> R$80,00</h1>
+                <a href="alcool.html"> Comprar</a>
+            </div>
+            <div>
+                <div class="card2">
+                    <img src="imagens/inalantes.jpeg">
+                    <h2>Drogas Inalantes</h2>
+                    <p>Inalantes Mn <p>
+                    <h1>R$120,00</h1>
+                    <a href="inalantes.html"> Comprar</a>
+
+            </div>
     </main>
 
     
