@@ -1,1 +1,124 @@
+header{
+    margin: 10px;
+    top: 0px;
+    position: relative;
+    background-color: bisque;
+    grid-area: cabeca;
+    height: 300px;
+    width: 100%;
+}
 
+h1{text-align: center;}
+
+h3{text-align: center;}
+
+body{background-color: white;
+    position: relative;
+    display:grid;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "secund princip princip"
+    "rodap rodap rodap"
+
+}
+
+.toba{text-align:left;}
+
+aside{
+    margin: 10px;
+    position: relative;
+    grid-area: secund;
+    background-color: pink;
+}
+
+footer{
+    margin: 10px;
+    position: relative;
+    background-color: cadetblue;
+    grid-area: rodap;
+    height: 150px;
+    
+}
+
+main{
+    margin: 10px;
+    position: relative;
+    background-color: blue;
+    grid-area: princip;
+    height: 800px;
+}
+
+@media(max-width:800px) {
+    header{
+        flex-direction: column;
+        background-color: brown;
+    }
+}
+
+.peru{
+    width: 900px;
+
+}
+
+.caixa_mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: darkgreen;
+    transition: 0.5s;
+}
+.card img{
+    width: 200px;
+    border-radius: 5px;
+}
+.card a{
+    border-radius: 30px;
+    background-color: black;
+    display: block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: 1s;
+}
+.card:hover{
+    background-color: rgb(15, 214, 75);
+}
+.card a:hover{
+    background-color: rgb(119, 128, 211);
+    color: rgb(12, 7, 0);
+}
+.card2{
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: darkgreen;
+    transition: 0.5s;
+}
+.card2 img{
+    width: 200px;
+    border-radius: 5px;
+}
+.card2:hover{
+    background-color: rgb(15, 214, 75);
+}
+.card2 a:hover{
+    background-color: rgb(119, 128, 211);
+    color: rgb(12, 7, 0);
+}
