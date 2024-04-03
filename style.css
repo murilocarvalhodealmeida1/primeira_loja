@@ -134,7 +134,8 @@ main{
     background-color: rgb(119, 128, 211);
     color: rgb(12, 7, 0);
 }
-.card3{border-radius: 10px;
+.card3{
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     display: flex;
@@ -156,13 +157,13 @@ main{
     color: blanchedalmond;
     transition: 1s;
 }
-.card3 img{width: 200px;
+.card3 img{
+    width: 200px;
     border-radius: 5px;
-
 }
 .card3:hover{
-    background-color: rgb(15, 214, 75);
-}
+    background-color: rgb(15, 214, 75);}
+    
 .card3 a:hover{
     background-color: rgb(119, 128, 211);
     color: rgb(12, 7, 0);
