@@ -43,7 +43,7 @@ footer{
 main{
     margin: 10px;
     position: relative;
-    background-color: blue;
+    background-color: #333;
     grid-area: princip;
     height: auto;
 }
@@ -75,7 +75,7 @@ main{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: darkgreen;
+    background-color: grey;
     transition: 0.5s;
 }
 .card img{
@@ -84,7 +84,7 @@ main{
 }
 .card a{
     border-radius: 30px;
-    background-color: black;
+    background-color: grey;
     display: block;
     height: 30px;
     width: 120px;
@@ -109,12 +109,12 @@ main{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: darkgreen;
+    background-color: grey;
     transition: 0.5s;
 }
 .card2 a{
     border-radius: 30px;
-    background-color: black;
+    background-color: grey;
     display: block;
     height: 30px;
     width: 120px;
@@ -128,10 +128,10 @@ main{
     border-radius: 5px;
 }
 .card2:hover{
-    background-color: rgb(15, 214, 75);
+    background-color: grey;
 }
 .card2 a:hover{
-    background-color: rgb(119, 128, 211);
+    background-color: rgb(61, 62, 73);
     color: rgb(12, 7, 0);
 }
 .card3{
@@ -143,12 +143,12 @@ main{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: darkgreen;
+    background-color: grey;
     transition: 0.5s;
 }
 .card3 a{
     border-radius: 30px;
-    background-color: black;
+    background-color: darkgreen;
     display: block;
     height: 30px;
     width: 120px;
@@ -162,7 +162,7 @@ main{
     border-radius: 5px;
 }
 .card3:hover{
-    background-color: rgb(15, 214, 75);}
+    background-color: grey;
     
 .card3 a:hover{
     background-color: rgb(119, 128, 211);
