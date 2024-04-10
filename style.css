@@ -1,16 +1,4 @@
-header{
-    margin: 10px;
-    top: 0px;
-    position: relative;
-    background-color: bisque;
-    grid-area: cabeca;
-    height: 300px;
-    width: 100%;
-}
 
-h1{text-align: center;}
-
-h3{text-align: center;}
 
 body{background-color: white;
     position: relative;
@@ -21,6 +9,23 @@ body{background-color: white;
     "rodap rodap rodap"
 
 }
+header{
+    margin: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.snoop{
+    position: auto;
+    width: 300px;
+}
+header nav li{
+    text-align: center;
+}
 
 .toba{text-align:left;}
 
@@ -28,7 +33,15 @@ aside{
     margin: 10px;
     position: relative;
     grid-area: secund;
-    background-color: pink;
+    background-color: darkgrey
+}
+
+main{
+    margin: 10px;
+    position: relative;
+    background-color: #333;
+    grid-area: princip;
+    height: auto;
 }
 
 footer{
@@ -40,24 +53,11 @@ footer{
     
 }
 
-main{
-    margin: 10px;
-    position: relative;
-    background-color: #333;
-    grid-area: princip;
-    height: auto;
-}
-
 @media(max-width:800px) {
     header{
         flex-direction: column;
         background-color: brown;
     }
-}
-
-.peru{
-    width: 900px;
-
 }
 
 .caixa_mae{
@@ -84,7 +84,7 @@ main{
 }
 .card a{
     border-radius: 30px;
-    background-color: grey;
+    background-color: black;
     display: block;
     height: 30px;
     width: 120px;
@@ -94,10 +94,10 @@ main{
     transition: 1s;
 }
 .card:hover{
-    background-color: rgb(15, 214, 75);
+    background-color: darkgreen;
 }
 .card a:hover{
-    background-color: rgb(119, 128, 211);
+    background-color: black;
     color: rgb(12, 7, 0);
 }
 .card2{
@@ -128,10 +128,10 @@ main{
     border-radius: 5px;
 }
 .card2:hover{
-    background-color: grey;
+    background-color:rgb(12, 7, 0);
 }
 .card2 a:hover{
-    background-color: rgb(61, 62, 73);
+    background-color: grey;
     color: rgb(12, 7, 0);
 }
 .card3{
@@ -163,7 +163,7 @@ main{
 }
 .card3:hover{
     background-color: grey;
-    
+}
 .card3 a:hover{
     background-color: rgb(119, 128, 211);
     color: rgb(12, 7, 0);
