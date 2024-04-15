@@ -24,7 +24,6 @@ header{
 header img{
     height: 200px;
     left: 150px;
-
 }
 
 .toba{text-align:left;}
@@ -64,8 +63,7 @@ footer{
     position: relative;
     background-color: cadetblue;
     grid-area: rodap;
-    height: 150px;
-    
+    height: 150px;   
 }
 
 @media only screen and (max-width: 800px){
