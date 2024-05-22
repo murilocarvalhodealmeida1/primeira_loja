@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+/* Estilo para o cabeçalho do carrinho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header img{
+    width: 90px;
+    float: left;
+}
+
+/* Estilo para o título do carrinho */
+h1 {
+    margin: 0;
+}
+main{
+    background-color: #333;
+}
+.item{
+    background-color: grey;
+}
+
+/* Estilo para os itens no carrinho */
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Estilo para as imagens dos itens */
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Estilo para os títulos dos itens */
+.item h2 {
+    margin: 0;
+}
+
+/* Estilo para os preços dos itens */
+.item p {
+    margin: 5px 0;
+}
+
+/* Estilo para o botão de remover item do carrinho */
+.remove-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.compra{
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão de remover item do carrinho quando passa o mouse sobre ele */
+.remove-btn:hover {
+    background-color: #cc473d;
+}
+/* Estilo para o texto de aviso de construção */
+.atencao {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    animation: blink 1s infinite; /* Animação de piscar */
+}
+
+/* Animação de piscar */
+@keyframes blink {
+    0% { opacity: 1; } /* Início - visível */
+    50% { opacity: 0; } /* Metade - invisível */
+    100% { opacity: 1; } /* Fim - visível */
+}
+
