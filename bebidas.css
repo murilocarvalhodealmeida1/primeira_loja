@@ -1,0 +1,99 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: green;
+    text-align: center;
+    padding: 20px;
+}
+.volta{
+    width: 90px;
+    float: left;
+}
+main{
+    background-color: grey;
+}
+
+/* Estilo para o título principal */
+h1 {
+    margin: 0;
+}
+
+/* Estilo para o subtítulo */
+h3 {
+    margin-top: 5px;
+}
+
+/* Estilo para o parágrafo de aviso */
+p {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Estilo para a imagem do produto */
+main img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Estilo para o botão de adicionar ao carrinho */
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o link dentro do botão */
+button[type="submit"] a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo para o link dentro do cabeçalho */
+header a {
+    text-decoration: none;
+    color: green;
+}
+
+/* Estilo para a imagem no cabeçalho */
+.bebidas {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+/* Estilo para o botão "Adicionar ao Carrinho" */
+.addCarrinho {
+    display: none;
+}
+
+.addCarrinho {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.addCarrinhoLabel:hover {
+    background-color: #0056b3;
+}
