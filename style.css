@@ -1,4 +1,4 @@
-body{background-color: white;
+body{background-color: black;
     position: relative;
     display:grid;
     grid-template-areas: 
@@ -8,17 +8,14 @@ body{background-color: white;
 
 }
 header{
-    color: darkgreen;
-    position: relative;
-    grid-area: cabeca;
-    height: 300px;
-    margin: 10px;
-    background-color: black;
-    display: flex;
+    background-color: #333;
+    color: green;
+    padding: 20px;
+    text-align: center;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
-    text-align: inherit;
+    grid-area: cabeca;
+
 }
 
 header img{
@@ -28,27 +25,65 @@ header img{
 
 .toba{text-align:left;}
 
-aside{
-    margin: 10px;
-    position: relative;
-    grid-area: secund;
-    background-color: darkgrey
+nav.menu-lateral{
+    width: 90px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #FF0077;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s;
 }
-aside nav li{
-    display: flex;
+
+nav.menu-lateral:hover{
+    width: 300px;
 }
-aside nav{
-    margin-top: 10px;
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
 }
-aside nav a{
-    background-color: black;
+.btn-expandir > i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: 1s ;
+}
+
+ul li.item-menu:hover{
+    background: #FF0077;
+}
+
+ul li.item-menu a{
+    color: #fff;
     text-decoration: none;
-    margin-left: 7px;
-    color: darkgreen;
-    border-radius: 10px;
-    padding: 5px;
-    transition: 0.2s;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
 }
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+    
+
 
 main{
     margin: 10px;
@@ -57,13 +92,20 @@ main{
     grid-area: princip;
     height: auto;
 }
+/* Estilo para a imagem do carrinho */
+.carro {
+    height: 20px;
+    width: 300px;
+    float: right;
+}
 
 footer{
     margin: 10px;
     position: relative;
-    background-color: cadetblue;
+    background-color: #333;
     grid-area: rodap;
-    height: 150px;   
+    height: 150px; 
+    color: green;  
 }
 
 @media only screen and (max-width: 800px){
