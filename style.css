@@ -98,13 +98,19 @@ main{
     width: 300px;
     float: right;
 }
+p { 
+    left: 0px;
+    max-width: 600px; /* Defina a largura máxima desejada aqui */
+    margin: 0 right; /* Isso centraliza o parágrafo na página */
+}
 
 footer{
+    text-align: center;
+    left: 0px;
     margin: 10px;
-    position: relative;
     background-color: #333;
     grid-area: rodap;
-    height: 150px; 
+    height: relative; 
     color: green;  
 }
 
