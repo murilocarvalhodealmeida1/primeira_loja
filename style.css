@@ -1,4 +1,4 @@
-body{background-color: black;
+ody{background-color: black;
     position: relative;
     display:grid;
     grid-template-areas: 
@@ -20,7 +20,7 @@ header{
 
 header img{
     height: 200px;
-    left: 150px;
+    left: 3px ;
 }
 
 .toba{text-align:left;}
@@ -30,7 +30,7 @@ nav.menu-lateral{
     height: 100%;
     background-color: #202020;
     padding: 40px 0 40px 1%;
-    box-shadow: 3px 0 0 #FF0077;
+    box-shadow: 3px 0 0 green;
     position: fixed;
     top: 0;
     left: 0;
@@ -62,7 +62,7 @@ ul li.item-menu{
 }
 
 ul li.item-menu:hover{
-    background: #FF0077;
+    background: green;
 }
 
 ul li.item-menu a{
@@ -81,8 +81,7 @@ ul li.item-menu a .txt-link{
 ul li.item-menu a .icon > i{
     font-size: 30px;
     margin-left: 10px;
-}
-    
+}   
 
 
 main{
@@ -93,11 +92,7 @@ main{
     height: auto;
 }
 /* Estilo para a imagem do carrinho */
-.carro {
-    height: 20px;
-    width: 300px;
-    float: right;
-}
+
 p { 
     left: 0px;
     max-width: 600px; /* Defina a largura máxima desejada aqui */
@@ -111,17 +106,21 @@ footer{
     background-color: #333;
     grid-area: rodap;
     height: relative; 
-    color: green;  
+    color: green; 
+     
 }
-
-@media only screen and (max-width: 800px){
+footer p{
+    text-align: left;
+    text-shadow: #202020;
+}
+@media only screen and (max-width: 400px){
     body{
         grid-template-areas:
         "cabeca"
         "secund"
         "princip"
         "rodap";
-        grid-template-columns: auto;border: 2px red solid;
+        grid-template-columns: auto;border: 2px ;
         grid-template-rows: auto 200px auto auto;
 
     }
