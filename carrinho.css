@@ -56,7 +56,7 @@ main{
 .remove-btn {
     display: block;
     padding: 10px 20px;
-    background-color: #ff6347;
+    background-color: green;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -74,7 +74,8 @@ main{
 
 /* Estilo para o botão de remover item do carrinho quando passa o mouse sobre ele */
 .remove-btn:hover {
-    background-color: #cc473d;
+    transition: 1s;
+    background-color: darkgreen;
 }
 /* Estilo para o texto de aviso de construção */
 .atencao {
