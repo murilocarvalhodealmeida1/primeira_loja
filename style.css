@@ -1,4 +1,4 @@
-ody{background-color: black;
+body{background-color: black;
     position: relative;
     display:grid;
     grid-template-areas: 
@@ -10,11 +10,12 @@ ody{background-color: black;
 header{
     background-color: #333;
     color: green;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    flex-direction: row;
+    flex-direction: inherit;
     width: 100%;
     grid-area: cabeca;
+    margin: 10px;
 
 }
 
